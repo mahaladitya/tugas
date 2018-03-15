@@ -38,7 +38,7 @@ $myArray = explode(" ", $teks); //proses tokenisasi
 
 $filteredarray = array_diff($myArray, $astoplist); //remove stopword
 //$st = new IDNstemmer();
-$konek = mysqli_connect("localhost","root","","dbstbi");
+$konek = mysqli_connect("localhost","root","","dokumen");
 
  
 
